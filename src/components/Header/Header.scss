@@ -1,0 +1,29 @@
+.img-logo {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.des {
+  width: 100%;
+  background-color: #efefef;
+  text-align: center;
+
+  &-header {
+    padding-block: 38px 18px;
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+
+  &-content {
+    padding-bottom: 38px;
+    padding-inline: 18%;
+  }
+}
+
+/* // Mobile screens */
+@media screen and (max-width: 740px) {
+  .img-detail {
+    width: 230px;
+  }
+}

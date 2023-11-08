@@ -1,0 +1,41 @@
+.content {
+  display: grid;
+  gap: 50px;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  margin-bottom: 80px;
+
+  &-header {
+    margin-block: 40px 18px;
+    font-size: 2.4rem;
+    font-weight: 700;
+  }
+
+  &-info {
+    display: flex;
+    gap: 16px;
+
+    .img {
+      width: 128px;
+    }
+
+    .text {
+    }
+  }
+}
+
+// Tablet screens
+@media screen and (max-width: 1024px) {
+  .content {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+}
+
+// Mobile screens
+@media screen and (max-width: 740px) {
+  .content {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0;
+  }
+}
