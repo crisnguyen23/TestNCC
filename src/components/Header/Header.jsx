@@ -4,8 +4,8 @@ import logoNCC from "../../assets/images/logoNCC.png";
 const Header = () => {
   return (
     <header className="header">
-      <figure className="img-logo">
-        <img srcSet={`${logoNCC} 2x`} alt="NCC logo" className="img-detail" />
+      <figure className="header-logo">
+        <img srcSet={`${logoNCC} 2x`} alt="NCC logo" className="img-logo" />
       </figure>
       <div className="des">
         <h3 className="des-header">Lorem ipsum dolor sit amet?</h3>

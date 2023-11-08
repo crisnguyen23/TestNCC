@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
+/* Rest CSS */
 *,
 *::before,
 *::after {
@@ -24,6 +25,7 @@ li {
   color: unset;
 }
 
+/* Layout */
 .wrapper {
   display: flex;
   min-height: 100dvh;

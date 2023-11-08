@@ -12,14 +12,9 @@
   }
 
   &-info {
-    display: flex;
-    gap: 16px;
-
     .img {
       width: 128px;
-    }
-
-    .text {
+      float: left;
     }
   }
 }

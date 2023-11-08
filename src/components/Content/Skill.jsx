@@ -6,7 +6,7 @@ const Skill = ({ path }) => {
       <h2 className="content-header">Lorem ipsum dolor sit amet</h2>
       <div className="content-info">
         <figure className="img">
-          <img srcSet={`${path} 2x`} alt="" />
+          <img srcSet={`${path} 2x`} alt="img" />
         </figure>
         <p className="text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non dui
